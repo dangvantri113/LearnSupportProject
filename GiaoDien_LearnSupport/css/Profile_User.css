@@ -1,0 +1,25 @@
+.profile{
+	margin-top: 80px;
+	padding: 20px;
+}
+.profile label{
+	display: inline-block;
+	width: 150px;
+}
+.profile h3{
+	color: green;
+}
+.submit{
+	width: 100px;
+	height: 50px;
+	background: blue;
+	color: white;
+	font-weight: 600;
+}
+.cancel{
+	width: 100px;
+	height: 50px;
+	background: red;
+	color: white;
+	font-weight: 600;
+}

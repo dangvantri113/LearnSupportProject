@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LearnSupport</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/Header.css">
+	<link rel="stylesheet" type="text/css" href="../css/Home_User.css">
+	<link rel="stylesheet" type="text/css" href="../css/Home.css">
+	<link rel="stylesheet" type="text/css" href="../css/Profile_User.css">
+	<link rel="stylesheet" type="text/css" href="../css/Footer.css">
+</head>
+<body>
+	<header id="#header">
+		<div class="logo">
+			<a href="#">
+				<img src="../images/logo.png">
+			</a>
+		</div>
+		<div class="menu">
+			<div class="menu_left">
+				<a id="menu_post" href="#">POSTS</a>
+				<a id ="menu_test" href="#">TEST</a>
+
+			</div>
+			
+		</div>
+		<div class="menu_right">
+				<input id = "search_input" name="search" placeholder="Learn Support" />
+				<button type="button" class="btn btn-default">
+     				 <span class="glyphicon glyphicon-search"></span> 
+    			</button>
+    			<a href="#">Register</a>
+    			<a href="#">Log in</a>
+			</div>
+	</header>
+	<div id="content">
+		<div class="sideBar">
+			<a class="avatar" href="#"><img src="../images/avatar.jpg"></a>
+			<a href="#" active>Trang Chủ</a>
+			<a href="#">Thông tin cá nhân</a>
+			<a href="#">Hoạt Động</a>
+			<a href="#">Xếp hạng</a>
+		</div>
+		<div class="profile">
+			<form class="updateProfile" action="#" method="POST">
+				<div class="basic_Infor">
+					<a class="avatar" href="#"><img src="../images/avatar.jpg"></a><br>
+					<h3>THÔNG TIN TÀI KHOẢN</h3>
+					<label>Họ Tên:</label><input name="name" type="text" value="Đặng Văn Trí"><br>
+					<label>Email:</label><input name="email" type="email" value="dangvantri113@gmail.com">
+				</div>
+				<div class="add_Infor">
+					<h3>THÔNG TIN CÁ NHÂN</h3>
+					<label>Giới Tính:</label><input type="radio" name="gender" value="male" checked> Male
+ 					<input type="radio" name="gender" value="female"> Female
+  					<input type="radio" name="gender" value="other"> Other <br>
+  					<label>Ngày sinh:</label><input type="date" name"birthday" value="2013-01-08"><br>
+					<label>Địa Chỉ:</label><input name="adress" type="text" value="Thừa Thiên Huế"><br>
+				</div>
+				<div class="pass_verify">
+					<h3>Nhập mật khẩu để thay đổi</h3>
+					<label>Mật Khẩu:</label><input type="password" name="password" value="abc123"><br>
+				</div>
+				<div>
+					<input class ="submit" type="button" name="submit" value="Cập Nhật">
+					<input class="cancel" type="button" name="cancel" value="Hủy" >
+				</div>
+			</form>
+			
+		</div>
+	<footer>
+		<div class="info">
+			<img alt="logo" src="../images/logo.png">
+			<h2 class="admin">Đặng Văn Trí</h2>
+			<h2 class="admin">Nguyễn Đăng Song Tuyển</h2>
+			<h2 class="admin">Võ Văn Trinh</h2>
+			<h5>Copyright &reg; 2018-2019</h5>
+		</div>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,24 @@
+.sideBar{
+	height: 100%;
+	width: 150px;
+	position: fixed;
+	top: 80px;
+	left: 0;
+	background: yellow;
+	z-index: 1;
+	border-left: 1px solid green;
+}
+.sideBar a{
+	display: block;
+	margin-top: 20px;
+	margin-left: 20px;
+	color: blue;
+}
+.avatar img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+#content{
+	padding-left:150px; 
+}
